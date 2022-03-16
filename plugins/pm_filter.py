@@ -786,7 +786,7 @@ async def manual_filters(client, message, text=False):
             if btn is not None:
                 try:
                     if fileid == "None":
-                        if btn == "[]":
+                    k = if btn == "[]":
                         k = await message.reply_text(
                              reply_text.format(
                                  first = message.from_user.first_name,
